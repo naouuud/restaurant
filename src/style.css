@@ -1,0 +1,74 @@
+* {
+    background-color: beige;
+}
+
+h1,
+h2,
+ul {
+    text-align: center;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.tabs ul {
+    margin: 0;
+}
+
+.tabs ul li {
+    padding: 16px 12px;
+}
+
+li {
+    list-style: none;
+}
+
+li.selected {
+    border: 1px dotted black;
+    border-bottom: none;
+}
+
+div#content {
+    display: grid;
+    justify-content: center;
+}
+
+.content {
+    display: grid;
+    gap: 20px;
+}
+
+.content>div {
+    width: 400px;
+    border: 1px dotted black;
+    padding: 0 45px;
+}
+
+.introduction ul, .baklava ul, .cookie ul, .cake ul, .contact-info ul {
+    display: grid;
+    gap: 15px;
+}
+
+.introduction li img, .baklava li img, .cookie li img, .cake li img {
+    width: 400px;
+    border: 1px dotted black;
+}
+
+.tabs ul,
+.footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer ul {
+    margin-top: 20px;
+}
+
+.contact-footer {
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    text-align: center;
+}
