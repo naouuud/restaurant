@@ -17,7 +17,8 @@ ul {
 }
 
 .tabs ul li {
-    padding: 16px 12px;
+    width: 80px;
+    padding: 16px 0;
 }
 
 li {
@@ -27,6 +28,8 @@ li {
 li.selected {
     border: 1px dotted black;
     border-bottom: none;
+    margin-bottom: -1px;
+    z-index: 1;
 }
 
 div#content {
